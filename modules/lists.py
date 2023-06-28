@@ -15,7 +15,7 @@ lists_numbers.remove(27) #removing specific value existing in lists
 lists_numbers.pop() #getting rid of the last value in the lists
 lists_numbers.sort() #sorting values in ascending manner
 
-same_numbers = lists_numbers.copy() #declaring new lists but copying the values
+same_numbers = lists_numbers.copy() #declaring new lists and copying the values
 lists_numbers.clear() #clear all values in the lists
 print(lists_numbers)
 print(same_numbers)

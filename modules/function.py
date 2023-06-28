@@ -1,3 +1,4 @@
+from math import *
 #using a function to declare specific tasks
 def addition():
     print(32 + 23)
@@ -22,6 +23,14 @@ operations() #calling a function to perform the functions stored in that functio
 def calling_name(name):
     print("Hello, " + name + "!")
     #using a parameter to pass value in the function
-    #it is possible to various information in a parameter
+    #it is possible to use various information in a parameter
 calling_name("Gabriel")
 calling_name("Kathlyn")
+
+#creating a function for squaring a number using number function & return statement
+def squared(number):
+    return pow(number, 2)
+print(squared(32))
+#you can use variable to declare a number for parameter
+result = squared(20)
+print(result)
