@@ -15,5 +15,3 @@ def writing_file():
     database = open("../files/database_two.txt", "a")
     database.write("\nNike - Shoes")
     database.close()
-
-writing_file()
