@@ -14,5 +14,5 @@ try:
         print(first_num / second_num)
     else:
         print("Invalid operator")
-except ValueError as err:
-    print(err)
+except ValueError as error:
+    print(error)
