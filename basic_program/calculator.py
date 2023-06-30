@@ -5,11 +5,11 @@ operator = input("Please select an operator: [+, -, *, /] ")
 
 if operator == "+":
     print(first_num + second_num)
-if operator == "-":
+elif operator == "-":
     print(first_num - second_num)
-if operator == "*":
+elif operator == "*":
     print(first_num * second_num)
-if operator == "/":
+elif operator == "/":
     print(first_num / second_num)
 else:
     print("Invalid operator")
