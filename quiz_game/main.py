@@ -15,7 +15,7 @@ questions = [
     Questions(question_prompts[4], "d")
 ]
 
-def run(questions):
+def test(questions):
     score = 0
     for question in questions:
         answer = input(question.prompts)
@@ -23,4 +23,4 @@ def run(questions):
             score += 1
     print("Your score is " + str(score) + "/" + str(len(questions)) + " correct")
 
-run(questions)
+test(questions)
