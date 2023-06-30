@@ -2,5 +2,5 @@
 _**This repository contains:**_
 - Modules
 - Basic program applications
-- Object-Oriented Projects _(Soon)_
+- Object-Oriented Projects 
 - Database application _(Soon)_
