@@ -3,7 +3,7 @@
 def calculate_average(numbers):
     sum = 0
     # checking if the lists is empty
-    if len(numbers) == 0:
+    if len(numbers) == 0: # practical answer is 'if not numbers:'
         print("No numbers provided")
     else:
         for number in numbers:
@@ -13,5 +13,6 @@ def calculate_average(numbers):
         average = sum / len(numbers)
         # printing
         print("Count: " + str(len(numbers)) + " Average: " + str(average))
+        # more practical way > print(f"Count: {len(numbers)}, Average: {average}")
 # calling function
 calculate_average([16,22,33,421,55,63])
