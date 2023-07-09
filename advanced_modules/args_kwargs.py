@@ -15,3 +15,12 @@ def data(**information):
     for key, value in information.items():
         print(f"{key}: {value}")
 data(name="Gabriel", age=20, address="Valenzuela", gender="Male")
+
+# you can have both arguments as parameters at the same function
+def func(*args, **kwargs):
+    for arg in args:
+        print(arg)
+    for key, value in kwargs.items():
+        print(key, value)
+func("Gabriel", "Orphiano", "orphiano-0", gmail="gab.orphiano@gmail.com", gender="Male")
+print(func)
