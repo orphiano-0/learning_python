@@ -10,10 +10,10 @@ def cook():
     return
 @doing_something
 def wash():
-    print("I am cooking!")
+    print("I am washing!")
     return
 def clean():
-    print("I am cooking!")
+    print("I am cleaning!")
     return
 
 doing_cleaning = doing_something(clean)
