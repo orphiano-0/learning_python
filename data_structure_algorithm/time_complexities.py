@@ -1,7 +1,7 @@
 # from Elshad Karimov --- The Complete Data Structures and Algorithms Course in Python (Udemy Course)
 array = [1, 2, 3, 4, 5]
 
-print('######  Constant time complexity  #######')
+print('Constant time complexity')
 print(array[0])
 
 print('Linear time complexity')
