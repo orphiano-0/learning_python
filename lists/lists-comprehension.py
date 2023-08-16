@@ -16,3 +16,9 @@ print(new_lists)
 language = 'Python'
 new_language = [i for i in language]
 print(new_language)
+
+# conditional lists comprehension
+orig_numbers = [1, 2, 3, 4, 5]
+# a condition is set up
+new_numbers = [i * 2 for i in orig_numbers if i % 2 == 1]
+print(new_numbers)
